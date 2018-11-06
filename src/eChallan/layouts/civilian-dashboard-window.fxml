@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Tab?>
+
+<AnchorPane stylesheets="eChallan/stylesheets/widgets.css" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" prefHeight="800.0" prefWidth="800.0">
+    <children>
+        <Label layoutX="430.0" layoutY="20.0" text="eChallan" textFill="blue">
+            <font>
+                <Font name="System Bold Italic" size="36.0" />
+            </font>
+        </Label>
+        <JFXTabPane layoutY="100" prefWidth="1000">
+            <Tab text="Pending Challan">
+                <fx:include source="pending-challan-window.fxml"/>
+            </Tab>
+            <Tab text="Your History">
+                <fx:include source="civilian-history-window.fxml"/>
+            </Tab>
+        </JFXTabPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+
+<AnchorPane fx:controller="eChallan.UserLoginController" stylesheets="eChallan/stylesheets/widgets.css" style="-fx-background-color: white;" maxHeight="450.0" maxWidth="800.0" minHeight="450.0" minWidth="800.0" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="310.0" layoutY="30.0" text="eChallan" textFill="blue">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="110.0" prefHeight="18.0" prefWidth="170.0" text="Select User" textFill="#777070"/>
+      <JFXComboBox fx:id="userCombo" layoutX="280.0" layoutY="140.0" prefHeight="26.0" prefWidth="222.0" />
+      <Label layoutX="280.0" layoutY="200.0" prefHeight="18.0" prefWidth="66.0" text="Username" textFill="#777070">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="userID" layoutX="280.0" layoutY="230" prefHeight="26.0" prefWidth="222.0"/>
+      <Label layoutX="280.0" layoutY="290.0" prefHeight="18.0" prefWidth="66.0" text="Password" textFill="#777070">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXPasswordField fx:id="userPassword" layoutX="280.0" layoutY="320" prefHeight="26.0" prefWidth="222.0"/>
+      <JFXButton onAction="#userLogin" text="Login" layoutX="280.0" layoutY="400" prefHeight="26.0" prefWidth="222.0"/>
+   </children>
+</AnchorPane>

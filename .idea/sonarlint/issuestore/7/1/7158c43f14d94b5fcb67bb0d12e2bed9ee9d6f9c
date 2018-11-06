@@ -1,0 +1,15 @@
+
+usquid:S3776$"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(â«­øüÿÿÿÿ8­§¿Êå,
+\
+squid:S106•"9Replace this use of System.out or System.err by a logger.(Ú§ÈÖúÿÿÿÿ8­§¿Êå,
+esquid:S00112w"FDefine and throw a dedicated exception instead of using a generic one.(í’Äå8­§¿Êå,
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šş²8­§¿Êå,
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”­¾ø8äÓ§ğä,
+ksquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(‚¾‰÷ÿÿÿÿÿ8­§¿Êå,
+V
+squid:S106p"9Replace this use of System.out or System.err by a logger.(­´¯â8­§¿Êå,
+jsquid:S2095|"GUse try-with-resources or close this "Statement" in a "finally" clause.(‚¾‰÷ÿÿÿÿÿ8­§¿Êå,
+\
+squid:S106…"9Replace this use of System.out or System.err by a logger.(Ú§ÈÖúÿÿÿÿ8­§¿Êå,
+usquid:S00117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÑæ¢øÿÿÿÿ8­§¿Êå,
+usquid:S00117{"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»œòÈşÿÿÿÿ8­§¿Êå,

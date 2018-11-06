@@ -1,0 +1,10 @@
+
+psquid:S00117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Ê¤M8®õÄñä,
+\
+squid:S106ª"9Replace this use of System.out or System.err by a logger.(Ú§ÈÖúÿÿÿÿ8€ÑÚñä,
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”­¾ø
+qsquid:S1192”"RUse already-defined constant 'FOUR_WHEELER' instead of duplicating its value here.(íê£´8òÿÉÊÛ,
+ysquid:S1192˜"ZUse already-defined constant 'COMMERCIAL_TRANSPORT' instead of duplicating its value here.( Ãº8ŒáÊÛ,
+ksquid:S00112¡"FDefine and throw a dedicated exception instead of using a generic one.(½öıÁùÿÿÿÿ8ÈéÛğä,
+psquid:S1192"QUse already-defined constant 'TWO_WHEELER' instead of duplicating its value here.(Í²şÜ8™¾ÉÊÛ,
+usquid:S37762"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(­…¤¹ÿÿÿÿÿ8ôöÊÇÛ,

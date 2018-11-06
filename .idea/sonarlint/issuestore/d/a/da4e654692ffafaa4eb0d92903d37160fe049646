@@ -1,0 +1,9 @@
+
+isquid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(œ¡È8âÙ˜ôä,
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”­¾ø
+esquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Éêœ‘8ï‹äóä,
+[
+squid:S106W"9Replace this use of System.out or System.err by a logger.(Ú§ÈÖúÿÿÿÿ8ØŠíóä,
+wsquid:S2293^"YReplace the type specification in this constructor call with the diamond operator ("<>").(İˆ³¬8¡Ú±óä,
+jsquid:S2095R"GUse try-with-resources or close this "Statement" in a "finally" clause.(‚¾‰÷ÿÿÿÿÿ8‚×ÿóä,
+usquid:S00117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ™øøÿÿÿÿ8ÃÚôä,

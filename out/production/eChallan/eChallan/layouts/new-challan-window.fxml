@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXButton?>
+
+<AnchorPane fx:controller="eChallan.NewChallanController" stylesheets="eChallan/stylesheets/widgets.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label layoutX="360.0" layoutY="40.0" prefHeight="18.0" prefWidth="170.0" text="Enter Vehicle Number" textFill="#777070"/>
+        <JFXTextField fx:id="violatedVehicleNumber" layoutX="360.0" layoutY="70" prefHeight="26.0" prefWidth="222.0"/>
+        <Label layoutX="360.0" layoutY="140.0" prefHeight="18.0" prefWidth="170.0" text="Select Date" textFill="#777070"/>
+        <JFXDatePicker fx:id="challanDateField" layoutX="360.0" layoutY="170" prefHeight="18.0" prefWidth="250.0" />
+        <Label layoutX="360.0" layoutY="240.0" prefHeight="18.0" prefWidth="170.0" text="Select Time" textFill="#777070"/>
+        <JFXTimePicker fx:id="challanTimeField" layoutX="360" layoutY="270" prefHeight="18" prefWidth="250"/>
+        <Label layoutX="360.0" layoutY="340.0" prefHeight="18.0" prefWidth="170.0" text="Rules Broken" textFill="#777070"/>
+        <JFXCheckBox fx:id="signalViolationRule" layoutX="360" layoutY="370" text="Signal Violation" prefWidth="270" prefHeight="14" />
+        <JFXCheckBox fx:id="drivingDocumentsRule" layoutX="360" layoutY="400" text="No Driving Documents" prefWidth="270" prefHeight="14" />
+        <JFXCheckBox fx:id="speedLimitRule" layoutX="360" layoutY="430" text="Speed Limit Violation" prefWidth="270" prefHeight="14" />
+        <JFXCheckBox fx:id="roadSafetyRule" layoutX="360" layoutY="460" text="Road Safety Violation" prefWidth="270" prefHeight="14" />
+        <JFXButton text="Create" onAction="#createChallan" layoutX="360" layoutY="520" prefHeight="26.0" prefWidth="250.0"/>
+    </children>
+</AnchorPane>

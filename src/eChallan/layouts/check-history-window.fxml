@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import com.jfoenix.controls.JFXTreeTableColumn?>
+
+<AnchorPane fx:controller="eChallan.CheckHistoryController" stylesheets="eChallan/stylesheets/widgets.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label layoutX="450.0" layoutY="30.0" text="History" textFill="blue">
+            <font>
+                <Font name="System Bold Italic" size="24.0" />
+            </font>
+        </Label>
+        <JFXTreeTableView fx:id="checkHistoryTable" layoutX="47.0" layoutY="90.0" prefHeight="525.0" prefWidth="900.0"/>
+    </children>
+</AnchorPane>

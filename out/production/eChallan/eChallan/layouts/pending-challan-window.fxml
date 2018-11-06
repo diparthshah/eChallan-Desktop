@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Label?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<AnchorPane fx:controller="eChallan.PendingChallanController" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label layoutX="400.0" layoutY="30.0" text="Pending Challan" textFill="blue">
+            <font>
+                <Font name="System Bold Italic" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="90.0" layoutY="100.0" prefHeight="18.0" prefWidth="170.0" text="ChallanID : " textFill="#00000A"/>
+        <Label fx:id="challanIdLabel" layoutX="190.0" layoutY="100.0" prefHeight="18.0" prefWidth="170.0" text="Here goes ChallanID : " textFill="#00000A"/>
+        <Label layoutX="90.0" layoutY="150.0" prefHeight="18.0" prefWidth="170.0" text="Challan Date : " textFill="#00000A"/>
+        <Label fx:id="challanDateLabel" layoutX="190.0" layoutY="150.0" prefHeight="18.0" prefWidth="170.0" text="Here goes Challan Date : " textFill="#00000A"/>
+        <Label layoutX="90.0" layoutY="200.0" prefHeight="18.0" prefWidth="170.0" text="Challan Time : " textFill="#00000A"/>
+        <Label fx:id="challanTimeLabel" layoutX="190.0" layoutY="200.0" prefHeight="18.0" prefWidth="170.0" text="here goes Challan Time : " textFill="#00000A"/>
+        <Label layoutX="90.0" layoutY="250.0" prefHeight="18.0" prefWidth="170.0" text="Rules Broken : " textFill="#00000A"/>
+        <Label fx:id="rulesBrokenLabel" layoutX="190.0" layoutY="250.0" prefHeight="18.0" prefWidth="570.0" text="here goes Rules Broken : " textFill="#00000A"/>
+        <Label layoutX="90.0" layoutY="300.0" prefHeight="18.0" prefWidth="170.0" text="Fine Amount : " textFill="#00000A"/>
+        <Label fx:id="fineAmountLabel" layoutX="190.0" layoutY="300.0" prefHeight="18.0" prefWidth="170.0" text="here goes Fine Amount : " textFill="#00000A"/>
+        <Label layoutX="90.0" layoutY="350.0" prefHeight="18.0" prefWidth="170.0" text="Officer Info : " textFill="#00000A"/>
+        <Label fx:id="officerInfoLabel" layoutX="190.0" layoutY="350.0" prefHeight="18.0" prefWidth="500.0" text="here goesOfficerID : " textFill="#00000A"/>
+        <JFXButton onAction="#markAsPaid" text="Mark as Paid" layoutX="400.0" layoutY="440" prefHeight="26.0" prefWidth="222.0"/>
+    </children>
+</AnchorPane>

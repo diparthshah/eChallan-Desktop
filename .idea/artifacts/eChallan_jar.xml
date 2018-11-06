@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="eChallan:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/eChallan_jar</output-path>
+    <root id="archive" name="eChallan.jar">
+      <element id="module-output" name="eChallan" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jfoenix-8.0.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

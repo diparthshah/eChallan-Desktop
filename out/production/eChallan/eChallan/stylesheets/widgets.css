@@ -1,0 +1,48 @@
+.jfx-button {
+    -jfx-button-type: RAISED;
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+}
+
+.jfx-text-field, .jfx-password-field {
+    -fx-prompt-text-fill: #777070;
+    -jfx-focus-color: blue;
+    -jfx-unfocus-color: blue;
+}
+
+.jfx-combo-box {
+	-fx-text-color: blue;
+	-jfx-focus-color: blue;
+	-jfx-unfocus-color: blue;
+	-fx-prompt-text-fill: #777070;
+}
+
+.jfx-tab-pane .tab {
+    -fx-padding:0 0 0 180;
+}
+
+.jfx-tab-pane .tab-selected-line {
+    -fx-background-color: white;
+}
+
+.jfx-tab-pane .tab .tab-label {
+    -fx-font-weight: normal;
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+}
+
+.jfx-tab-pane {
+    -jfx-background-color: blue;
+}
+
+.jfx-tab-pane .tab-header-background {
+    -fx-background-color: blue;
+}
+
+.jfx-check-box {
+    -jfx-checked-color: TRANSPARENT;
+}
+
+.jfx-check-box:selected .mark{
+    -fx-border-color: blue;
+}

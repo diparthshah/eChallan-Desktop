@@ -1,0 +1,27 @@
+
+jsquid:S2095*"GUse try-with-resources or close this "Statement" in a "finally" clause.(‚¾‰÷ÿÿÿÿÿ8ıÃıÇå,
+jsquid:S2095b"GUse try-with-resources or close this "Statement" in a "finally" clause.(‚¾‰÷ÿÿÿÿÿ8êƒßÈå,
+[
+squid:S106k"9Replace this use of System.out or System.err by a logger.(Ú§ÈÖúÿÿÿÿ8êƒßÈå,
+jsquid:S2095M"GUse try-with-resources or close this "Statement" in a "finally" clause.(‚¾‰÷ÿÿÿÿÿ8ıÃıÇå,
+qsquid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨§Û‘8ÖêûÈå,
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”­¾ø
+isquid:S1192)"KDefine a constant instead of duplicating this literal "' LIMIT 1;" 3 times.(ğ·Ÿ³8™ÊâÈå,
+osquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ÎŒ58ıÃıÇå,
+jsquid:S00112|"FDefine and throw a dedicated exception instead of using a generic one.(‚±¾±ıÿÿÿÿ8ÙÅ„Éå,
+jsquid:S001127"FDefine and throw a dedicated exception instead of using a generic one.(¦ÊÅ’úÿÿÿÿ8ıÃıÇå,
+psquid:S00117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áø¬Å8êƒßÈå,
+psquid:S00117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ·Ÿ³8ıÃıÇå,
+usquid:S00117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ•ù‡ùÿÿÿÿ8ıÃıÇå,
+[
+squid:S106A"9Replace this use of System.out or System.err by a logger.(Ú§ÈÖúÿÿÿÿ8ıÃıÇå,
+[
+squid:S106W"9Replace this use of System.out or System.err by a logger.(Ú§ÈÖúÿÿÿÿ8ıÃıÇå,
+W
+squid:S106„"9Replace this use of System.out or System.err by a logger.(­´¯â8ÖêûÈå,
+esquid:S00112&"FDefine and throw a dedicated exception instead of using a generic one.(×–Û­8ıÃıÇå,
+jsquid:S00112I"FDefine and throw a dedicated exception instead of using a generic one.(÷é×¡ıÿÿÿÿ8ıÃıÇå,
+jsquid:S2095<"GUse try-with-resources or close this "Statement" in a "finally" clause.(‚¾‰÷ÿÿÿÿÿ8ıÃıÇå,
+[
+squid:S1060"9Replace this use of System.out or System.err by a logger.(Ú§ÈÖúÿÿÿÿ8ıÃıÇå,
+esquid:S00112^"FDefine and throw a dedicated exception instead of using a generic one.(¿¿‰ù8Ÿ¾ÊÈå,

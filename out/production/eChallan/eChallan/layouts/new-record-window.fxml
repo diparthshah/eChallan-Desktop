@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+
+<AnchorPane fx:controller="eChallan.AddRecordController" stylesheets="eChallan/stylesheets/widgets.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <JFXTextField fx:id="aadharID" labelFloat="true" promptText="Enter AadharID"  layoutX="200.0" layoutY="60" prefHeight="26.0" prefWidth="222.0"/>
+        <JFXTextField fx:id="fname" labelFloat="true" promptText="Enter First Name"  layoutX="200.0" layoutY="160" prefHeight="26.0" prefWidth="222.0"/>
+        <JFXTextField fx:id="lname" labelFloat="true" promptText="Enter Last Name"  layoutX="200.0" layoutY="260" prefHeight="26.0" prefWidth="222.0"/>
+        <JFXTextField fx:id="pinCode" labelFloat="true" promptText="Enter Pin Code"  layoutX="200.0" layoutY="360" prefHeight="26.0" prefWidth="222.0"/>
+        <JFXTextField fx:id="streetNo" labelFloat="true" promptText="Enter Street Number"  layoutX="200.0" layoutY="460" prefHeight="26.0" prefWidth="222.0"/>
+        <JFXTextField fx:id="licenseNo" labelFloat="true" promptText="Enter License Number"  layoutX="520.0" layoutY="60" prefHeight="26.0" prefWidth="222.0"/>
+        <JFXTextField fx:id="vehicleNo" labelFloat="true" promptText="Enter Vehicle Number"  layoutX="520.0" layoutY="160" prefHeight="26.0" prefWidth="222.0"/>
+        <JFXComboBox fx:id="vehicleTypeCombo" labelFloat="true" promptText="Select Vehicle Type" layoutX="520.0" layoutY="260.0" prefHeight="26.0" prefWidth="222.0" />
+        <JFXTextField fx:id="vehicleModel" labelFloat="true" promptText="Enter Vehicle Model"  layoutX="520.0" layoutY="360" prefHeight="26.0" prefWidth="222.0"/>
+        <JFXTextField fx:id="phoneNo" labelFloat="true" promptText="Enter Phone Number"  layoutX="520.0" layoutY="460" prefHeight="26.0" prefWidth="222.0"/>
+        <JFXButton onAction="#addRecord" text="Add Record" layoutX="360.0" layoutY="550" prefHeight="26.0" prefWidth="222.0"/>
+    </children>
+</AnchorPane>
